@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Англи хэл ЭЕШ - Практик тест</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Англи хэл ЭЕШ - Практик тест</h1>
+      <div class="controls-top">
+        <label for="langSelect">Хэл:</label>
+        <select id="langSelect" aria-label="language select">
+          <option value="mn">Монгол</option>
+          <option value="en">English</option>
+        </select>
+        <span id="progressStat" class="stat">0 / 0</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" id="intro">
+      <p class="small">Доорх "Тест эхлэх" дарж эхэлнэ. Жишээ асуултууд questions.json-д байгаа. Үүнийг өөрийн ЭЕШ бодлогоор солиж болно.</p>
+      <div class="actions">
+        <button id="startBtn">Тест эхлэх</button>
+        <button class="ghost" id="loadSample">Жишээ 5 асуулт ачааллах</button>
+        <button class="ghost" id="clearStorage">Өмнөх дүнг устгах</button>
+      </div>
+    </section>
+
+    <section class="card" id="questionBox" style="display:none">
+      <div class="question-area">
+        <div class="question" id="qText">Асуулт...</div>
+        <div class="choices" id="choices"></div>
+
+        <div class="controls">
+          <button id="checkBtn">Шалгах</button>
+          <button class="ghost" id="nextBtn" disabled>Дараагийн</button>
+          <button class="ghost" id="showAnswerBtn">Хариуг харах</button>
+        </div>
+
+        <div id="feedback" class="result"></div>
+        <div id="explain" class="explanation" style="display:none"></div>
+      </div>
+    </section>
+
+    <section class="card" id="finalBox" style="display:none">
+      <h2>Таны оноо</h2>
+      <div id="finalScore" class="big"></div>
+      <div class="actions">
+        <button id="retryBtn">Дахин эхлэх</button>
+        <button class="ghost" id="loadPrevBtn">Load previous</button>
+      </div>
+    </section>
+
+    <footer class="footer small">
+      Энэ сайт статик HTML + JS ашиглана. questions.json файлыг өөрийн бодлогуудтай солино уу.
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

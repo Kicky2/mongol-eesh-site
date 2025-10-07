@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question_mn": "He ____ to school every day.",
+    "question_en": "He ____ to school every day.",
+    "choices": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+    ],
+    "answer": "goes",
+    "explanation_mn": "Сэдэв: 3-р нэгж. 'He' тул 3-р хувилбар -> goes.",
+    "explanation_en": "Subject 'He' is 3rd person singular, so 'goes'."
+  },
+  {
+    "id": 2,
+    "question_mn": "If I _____ rich, I would travel the world.",
+    "question_en": "If I _____ rich, I would travel the world.",
+    "choices": [
+      "am",
+      "were",
+      "was",
+      "be"
+    ],
+    "answer": "were",
+    "explanation_mn": "Худалдаа: unreal conditional - 'If I were' нь зөв.",
+    "explanation_en": "This is a hypothetical; use 'If I were'."
+  },
+  {
+    "id": 3,
+    "question_mn": "She is looking forward to _____ her friends.",
+    "question_en": "She is looking forward to _____ her friends.",
+    "choices": [
+      "see",
+      "seeing",
+      "to see",
+      "be seeing"
+    ],
+    "answer": "seeing",
+    "explanation_mn": "'look forward to' дараа -ing хэлбэр ирнэ.",
+    "explanation_en": "'look forward to' is followed by a gerund: 'seeing'."
+  },
+  {
+    "id": 4,
+    "question_mn": "He is good ___ math.",
+    "question_en": "He is good ___ math.",
+    "choices": [
+      "in",
+      "at",
+      "on",
+      "with"
+    ],
+    "answer": "at",
+    "explanation_mn": "'good at' гэж хэрэглэнэ.",
+    "explanation_en": "Use the collocation 'good at'."
+  },
+  {
+    "id": 5,
+    "question_mn": "They _____ already eaten when we arrived.",
+    "question_en": "They _____ already eaten when we arrived.",
+    "choices": [
+      "had",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": "had",
+    "explanation_mn": "Past perfect шаардлагатай - 'had already eaten'.",
+    "explanation_en": "Past perfect: 'had already eaten' is correct."
+  }
+]
